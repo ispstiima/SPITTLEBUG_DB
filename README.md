@@ -38,3 +38,13 @@ Image dataset of juvenile Aphrophoridae’s foam to train deep learning models f
 ## Data Source Location
 Valenzano, Apulia, Italy (70010 BA)  
 **GPS coordinates**: 41°01’40’’N, 16°54’14’’E
+
+## Acknowledgments
+This work was funded by the European Union-NextGenerationEU under the research program PNRR MUR Missione 4, Componente C2, Investimento 1.1 NextGenerationEU - PRIN 2022 “Sustainable physical management system and automated detection of juvenile Aphrophoridae vectors of Xylella fastidiosa” (Grant N. 20227F7J5W, CUP H53D23005130006, B53D23017280006).
+ 
+## Credits
+Experiments for data acquisition were conceived, performed, and supervised by Annalisa Milella. Michele Elia, Arianna Rana, and Antonio Petitti contributed to data acquisition and maintenance. Michele Elia, Angelo Cardellicchio, and Vito Renò contributed to data annotation and software development. The technical support from Michele Paradiso and Giuseppe Veronico is also acknowledged. 
+<br/>
+Contact person: Annalisa Milella - annalisa.milella@cnr.it
+<br/>
+National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy

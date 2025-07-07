@@ -45,6 +45,8 @@ This work was funded by the European Union-NextGenerationEU under the research p
 ## Credits
 Experiments for data acquisition were conceived, performed, and supervised by Annalisa Milella. Michele Elia, Arianna Rana, and Antonio Petitti contributed to data acquisition and maintenance. Michele Elia, Angelo Cardellicchio, and Vito Renò contributed to data annotation and software development. The technical support from Michele Paradiso and Giuseppe Veronico is also acknowledged. 
 <br/>
+<br/>
 Contact person: Annalisa Milella - annalisa.milella@cnr.it
+<br/>
 <br/>
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy

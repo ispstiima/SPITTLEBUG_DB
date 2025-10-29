@@ -39,6 +39,9 @@ Image dataset of juvenile Aphrophoridae’s foam to train deep learning models f
 Valenzano, Apulia, Italy (70010 BA)  
 **GPS coordinates**: 41°01’40’’N, 16°54’14’’E
 
+## Mask conversion code
+The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.
+
 ## Acknowledgments
 This work was funded by the European Union-NextGenerationEU under the research program PNRR MUR Missione 4, Componente C2, Investimento 1.1 NextGenerationEU - PRIN 2022 “Sustainable physical management system and automated detection of juvenile Aphrophoridae vectors of Xylella fastidiosa” (Grant N. 20227F7J5W, CUP H53D23005130006, B53D23017280006).
  
@@ -51,5 +54,4 @@ Contact person: Annalisa Milella - annalisa.milella@cnr.it
 <br/>
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
 
-## Mask conversion code
-The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.
+

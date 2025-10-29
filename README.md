@@ -51,5 +51,5 @@ Contact person: Annalisa Milella - annalisa.milella@cnr.it
 <br/>
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
 
-## Annotion conversion code
+## Mask conversion code
 The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.

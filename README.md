@@ -52,4 +52,4 @@ Contact person: Annalisa Milella - annalisa.milella@cnr.it
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
 
 ## Extra
-This Python script `binmask_to_yolo.py` converts binary segmentation mask images into YOLO format labels for both segmentation and bounding box detection tasks. to know more go to `binmask_to_yolo.md`
+The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.

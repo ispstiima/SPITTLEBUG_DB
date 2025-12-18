@@ -42,6 +42,21 @@ Valenzano, Apulia, Italy (70010 BA)
 ## Mask conversion code
 The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.
 
+## Usage for object detection and segmentation
+
+Once the dataset has been processed and converted to the YOLO format, it can be used for either the segmentation or the detection task. To this end, the [Ultralytics](https://github.com/ultralytics/ultralytics) library can be used. A sample script for object detection is the following:
+
+```py
+from ultralytics import YOLO
+
+# Load the pretrained YOLO11 nano model
+model = YOLO("yolo11n.pt")
+# Fine tune the model on the dataset by specifying its relative or absolute path.
+model.train("path/to/converted/dataset.yaml")
+```
+
+A base experiment for the segmentation task can be achieved by modifying the targeted model, for example selecting the `yolov11n-seg.pt` version.
+
 ## Acknowledgments
 This work was funded by the European Union-NextGenerationEU under the research program PNRR MUR Missione 4, Componente C2, Investimento 1.1 NextGenerationEU - PRIN 2022 “Sustainable physical management system and automated detection of juvenile Aphrophoridae vectors of Xylella fastidiosa” (Grant N. 20227F7J5W, CUP H53D23005130006, B53D23017280006).
  

@@ -1,5 +1,5 @@
 # Dataset: SPITTLEBUG_DB
-This dataset was created to support the publication of the accompanying article [1] and to make the data publicly available. It contains 365 images in .PNG and .JPG formats, captured at various resolutions using three different devices: an Intel RealSense D435, a Canon EOS1100D, and an iPhone 11. The images are intended for research in computer vision and machine learning, particularly for applications in pest monitoring and automated detection systems.
+This dataset was created to support the publication of the accompanying article [1] and to make the data publicly available. It comprises 365 colour images, focusing on spittlebug foam. 211 of these images were captured in April 2024 during a two-day campaign. For these 211 images, a manual semantic annotation was performed, generating PNG binary masks that precisely distinguish spittlebug foam pixels from the background. To further enhance usability, labels are also provided in YOLO (You Only Look Once) format as text files, both for segmentation and object detection. The remaining 154 images were collected during a separate two-day campaign in 2025. These images are unannotated and are intended for further testing purposes. The images were captured at various resolutions using three different devices: an Intel RealSense D435, a Canon EOS1100D, and an iPhone 11. The dataset is intended for research in computer vision and deep learning, particularly for applications in pest monitoring and automated detection systems.
 
 ## Subject Area
 - **Computer science**: artificial intelligence, computer vision, computer science applications, pattern recognition  
@@ -25,7 +25,7 @@ Image dataset of juvenile Aphrophoridae’s foam to train deep learning models f
 ## Data Collection
 - **Campaign dates**: April 2024 and April 2025
 - **Location**: Uncultivated 600 m² area in Valenzano, Apulia, Italy  
-- **GPS coordinates**: 41°01’40’’N, 16°54’14’’E
+- **GPS coordinates**: 41°01’40’’N 16°54’19’’E
 - **Devices used**:
   - Intel RealSense D435
   - iPhone 11
@@ -34,10 +34,6 @@ Image dataset of juvenile Aphrophoridae’s foam to train deep learning models f
   - Cameras manually deployed at varying distances (30–50 cm)
   - Varied camera angles (frontal to orthogonal)
   - Lighting conditions: sunny and cloudy, with light changes and shadows
-
-## Data Source Location
-Valenzano, Apulia, Italy (70010 BA)  
-**GPS coordinates**: 41°01’40’’N, 16°54’14’’E
 
 ## Mask conversion code
 The Python script `binmask_to_yolo.py` converts binary segmentation masks to YOLO format for segmentation and detection tasks. See `binmask_to_yolo.md` for details.

@@ -1,5 +1,5 @@
 # Dataset: SPITTLEBUG_DB
-This dataset was created to support the publication of the accompanying brief article and to make the data publicly available. It contains 365 images in .PNG and .JPG formats, captured at various resolutions using three different devices: an Intel RealSense D435, a Canon EOS1100D, and an iPhone 11. The images are intended for research in computer vision and machine learning, particularly for applications in pest monitoring and automated detection systems.
+This dataset was created to support the publication of the accompanying article [1] and to make the data publicly available. It contains 365 images in .PNG and .JPG formats, captured at various resolutions using three different devices: an Intel RealSense D435, a Canon EOS1100D, and an iPhone 11. The images are intended for research in computer vision and machine learning, particularly for applications in pest monitoring and automated detection systems.
 
 ## Subject Area
 - **Computer science**: artificial intelligence, computer vision, computer science applications, pattern recognition  
@@ -68,5 +68,8 @@ Contact person: Annalisa Milella - annalisa.milella@cnr.it
 <br/>
 <br/>
 National Research Council of Italy (CNR), Institute of Intelligent Systems and Technologies for Advanced Manufacturing (STIIMA), via Amendola 122 D/O, 70126, Bari, Italy
+
+## Cite
+M. Elia, A. Cardellicchio, M. Paradiso, G. Veronico, A. Rana, A. Petitti, V. Renò, S. Pascuzzi, A. Milella, "Towards sustainable management of Xylella fastidiosa vectors: an annotated image dataset for automated in-field detection of Aphrophoridae foam," Data in Brief, 2026, 112477, ISSN 2352-3409, https://doi.org/10.1016/j.dib.2026.112477.
 
 
